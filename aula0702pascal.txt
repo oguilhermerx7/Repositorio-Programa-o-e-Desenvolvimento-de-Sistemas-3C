@@ -1,0 +1,16 @@
+program Tabuada;
+
+var
+  i, N: integer;
+
+Begin
+  //conversar com o usuário
+  write('Informe um número: ');
+  read(N);
+
+  //mostra a tabuada
+  for i := 1 to 10 do
+  begin
+    writeln(N, ' x ', i:2, ' = ', N*i:2);
+  end;
+End.
