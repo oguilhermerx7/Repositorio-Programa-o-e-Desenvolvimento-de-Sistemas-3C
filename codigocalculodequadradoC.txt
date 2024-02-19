@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int alturaretangulo, larguraretangulo, resultado;
+
+    printf("Digite a altura do retangulo:");
+    scanf("%d", &alturaretangulo);
+
+    printf("Digite a largura do retangulo:");
+    scanf("%d", &larguraretangulo);
+
+    resultado = alturaretangulo * larguraretangulo;
+    printf("o seu resultado é:" "%d", resultado);
+    return 0;
+}
+
